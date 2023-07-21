@@ -8,7 +8,7 @@ RUN pip install -r requirements.txt
 
 COPY . /app/web-app-django
 
-RUN python manage.py migrate
+RUN python todo/manage.py migrate
 
 EXPOSE 8000
 
