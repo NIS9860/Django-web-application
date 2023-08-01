@@ -1,0 +1,7 @@
+version: '3'
+services:
+    pathak-web-app:
+        image: nischal9860/web-pathak--app:latest
+        container_name: web-pathak--app-container
+        ports:
+            - '8000:8000'
